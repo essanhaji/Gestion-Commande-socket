@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="625.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="gestion.commande.CuisinierController">
+   <children>
+      <TableView layoutX="19.0" layoutY="82.0" prefHeight="193.0" prefWidth="564.0">
+        <columns>
+          <TableColumn prefWidth="100.0" text="№ Commande" />
+          <TableColumn prefWidth="113.0" text="Salade" />
+            <TableColumn minWidth="0.0" prefWidth="168.0" text="Plat Principale" />
+            <TableColumn maxWidth="500.0" prefWidth="182.0" text="Boisson" />
+        </columns>
+      </TableView>
+      <Button layoutX="506.0" layoutY="30.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="68.0" text="Preparer" />
+      <Button layoutX="428.0" layoutY="30.0" mnemonicParsing="false" text="Actualiser" />
+   </children>
+</AnchorPane>

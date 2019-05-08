@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="381.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestion.commande.PriseDeCommandeController">
+   <children>
+      <Label layoutX="200.0" layoutY="323.0" text="Total">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Button fx:id="btnCmd" layoutX="225.0" layoutY="37.0" mnemonicParsing="false" text="Commander" />
+      <Label layoutX="32.0" layoutY="32.0" text="№ Table" />
+      <Label layoutX="252.0" layoutY="323.0" prefHeight="21.0" prefWidth="27.0" text="500">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="286.0" layoutY="323.0" text="DH">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="32.0" layoutY="80.0" prefHeight="25.0" prefWidth="109.0" text="Entrees et salades" />
+      <ComboBox fx:id="comboS" layoutX="34.0" layoutY="105.0" prefHeight="25.0" prefWidth="199.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </ComboBox>
+      <Label layoutX="32.0" layoutY="156.0" prefHeight="25.0" prefWidth="81.0" text="Boisson" />
+      <ComboBox fx:id="comboB" layoutX="32.0" layoutY="181.0" prefHeight="25.0" prefWidth="199.0" />
+      <Label layoutX="32.0" layoutY="235.0" prefHeight="25.0" prefWidth="109.0" text="Plat Principale" />
+      <ComboBox fx:id="comboP" layoutX="32.0" layoutY="260.0" prefHeight="25.0" prefWidth="199.0" />
+      <TextField fx:id="numTab" layoutX="84.0" layoutY="28.0" prefHeight="25.0" prefWidth="46.0" />
+   </children>
+</AnchorPane>
